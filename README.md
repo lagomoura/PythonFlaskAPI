@@ -2,7 +2,7 @@
 
 Este es un proyecto simple de una Lista de Tareas (To-Do List) desarrollado con Flask, un marco de trabajo de Python para aplicaciones web. Esta aplicación te permite crear, editar y eliminar tareas pendientes.
 
-(![image](![image](https://github.com/lagomoura/PythonFlaskAPI/assets/74666231/93e1997e-f4e8-4ab9-82c9-f8ea561db856)))
+![image](![image](https://github.com/lagomoura/PythonFlaskAPI/assets/74666231/93e1997e-f4e8-4ab9-82c9-f8ea561db856))
 
 
 ## Características 🌟
