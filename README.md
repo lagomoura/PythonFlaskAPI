@@ -14,6 +14,7 @@ Este es un proyecto simple de una Lista de Tareas (To-Do List) desarrollado con 
 
 ## Cómo ejecutar localmente 🏃‍♂️
 Si deseas ejecutar esta aplicación en tu entorno local para probarla o hacer contribuciones, sigue estos pasos:
+
 ### 1. Clona el repositorio 📥
 Primero, clona este repositorio en tu máquina local utilizando Git:
 
