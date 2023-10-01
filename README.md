@@ -20,7 +20,7 @@ Primero, clona este repositorio en tu máquina local utilizando Git:
 bash
 ```git clone https://github.com/lagomoura/PythonFlaskAPI.git```
 
-2. Configura el entorno virtual (opcional pero recomendado) ⚙️
+### 2. Configura el entorno virtual (opcional pero recomendado) ⚙️
 Se recomienda utilizar un entorno virtual para evitar conflictos con las dependencias de tu sistema. Instala virtualenv si aún no lo tienes:
 
 ```pip install virtualenv```
@@ -36,11 +36,11 @@ En Windows:
 En macOS y Linux:
 ```source venv/bin/activate```
 
-3. Instala las dependencias 📦
+### 3. Instala las dependencias 📦
 Dentro del entorno virtual, instala las dependencias utilizando pip:
 ```pip install -r requirements.txt```
 
-4. Ejecuta la aplicación ▶️
+### 4. Ejecuta la aplicación ▶️
 Ejecuta la aplicación Flask:
 ```python app.py```
 
