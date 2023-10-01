@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- Conexion CSS -->
+		<link
+			rel="stylesheet"
+			href="{{ url_for('static', filename='style.css') }}"
+		/>
+		<title>Lista de To-do</title>
+	</head>
+	<body>
+		<div>
+			<h1>Todo App</h1>
+
+			<form action="/" method="POST" class="form">
+				<div>
+					<label for="Todo Title"></label>
+					<input type="text" name="title" id= "titulo" placeholder="Ingrese tarea" />
+					<br />
+				</div>
+				<button class="button-text" type="submit">Add</button>
+			</form>
+			<hr />
+
+			{% for todo in todo_list %}
+			<div class="segment">
+				<p class="titulo-todo">
+					Id Tarefa: {{todo.id}} | Titulo Tarefa: {{todo.title}}
+				</p>
+
+				{% if todo.complete == False %}
+				<span class="label_ncomplete">Not Complete</span>
+				{% else %}
+				<span class="label_completed">Completed</span>
+				{% endif %}
+
+				<!--! Refactorar codigo para una mejor practica de update y delete de los todos -->
+				<button class="button_updt">
+					<a href="/update/{{todo.id}}">Update</a>
+				</button>
+				<button class="button_del">
+					<a href="/delete/{{todo.id}}">Delete</a>
+				</button>
+			</div>
+			{% endfor %}
+		</div>
+	</body>
+</html>
