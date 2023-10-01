@@ -17,33 +17,32 @@ Si deseas ejecutar esta aplicación en tu entorno local para probarla o hacer co
 ### 1. Clona el repositorio 📥
 Primero, clona este repositorio en tu máquina local utilizando Git:
 
-```bash
-git clone https://github.com/lagomoura/PythonFlaskAPI.git
+bash
+```git clone https://github.com/lagomoura/PythonFlaskAPI.git```
 
 2. Configura el entorno virtual (opcional pero recomendado) ⚙️
 Se recomienda utilizar un entorno virtual para evitar conflictos con las dependencias de tu sistema. Instala virtualenv si aún no lo tienes:
 
-```pip install virtualenv
+```pip install virtualenv```
 
 Crea un nuevo entorno virtual en la carpeta del proyecto:
 
-```cd PythonFlaskAPI
-python -m venv venv
+```cd PythonFlaskAPI python -m venv venv```
 
 Activa el entorno virtual:
 En Windows:
-```venv\Scripts\activate
+```venv\Scripts\activate```
 
 En macOS y Linux:
-```source venv/bin/activate
+```source venv/bin/activate```
 
 3. Instala las dependencias 📦
 Dentro del entorno virtual, instala las dependencias utilizando pip:
-```pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 4. Ejecuta la aplicación ▶️
 Ejecuta la aplicación Flask:
-```python app.py
+```python app.py```
 
 La aplicación estará disponible en http://localhost:5000 en tu navegador web.
 
